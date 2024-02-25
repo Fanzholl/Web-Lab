@@ -1,0 +1,50 @@
+.StartScreen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../images/StartScreen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.StartScreen h1, .StartScreen p {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.StartScreen h1 {
+    font-size: 60px;
+    
+}
+
+.StartScreen p {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+}
+
+.StartScreen p::before, .StartScreen p::after {
+    width: 60px;
+    height: 2px;
+    top: calc(50% - 1px);
+    content: '';
+    display: block;
+    background-color: white;
+    position: absolute;
+}
+
+.StartScreen p::before {
+    left: -70px;
+}
+
+.StartScreen p::after {
+    right: -70px;
+}

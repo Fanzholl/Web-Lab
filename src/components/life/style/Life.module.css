@@ -1,0 +1,27 @@
+.Life {
+    width: 100%;
+    position: relative;
+    /* height: 1160px; */
+}
+
+.LifeLabel {
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-image: url(../../../images/LifeLabel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.LifeBackground {
+    width: 100%;
+    height: 660px;
+    padding-bottom: 100px;
+    background-image: url(../../../images/Life.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

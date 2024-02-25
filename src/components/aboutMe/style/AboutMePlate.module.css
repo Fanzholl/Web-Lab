@@ -1,0 +1,33 @@
+.AboutMePlate {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Me {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.AboutMeText {
+    max-width: 660px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    padding-left: 60px;
+}
+
+.AboutMeText h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.AboutMeText p {
+    font-size: 21px;
+    text-align: justify;
+    padding-top: 6px;
+}

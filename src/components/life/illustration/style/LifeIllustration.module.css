@@ -1,0 +1,13 @@
+.LifeIllustration {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.LifeIllustration:last-child {
+    margin-bottom: 0px;
+}

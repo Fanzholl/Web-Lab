@@ -1,0 +1,22 @@
+.Uslugy {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px 100px 20px;
+    background-image: url('../../../images/Uslugy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.UslugyListItemContainer {
+    max-width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}

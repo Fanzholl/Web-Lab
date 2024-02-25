@@ -1,0 +1,17 @@
+.BlockName, .BlockDescription {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.BlockName {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.BlockDescription {
+    font-size: 30px;
+    font-weight: bold;
+}
